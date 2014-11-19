@@ -21,13 +21,13 @@ object MyTest1 extends App{
 //  })
 
   val system = ActorSystem("abc")
-  val act = system.actorOf(Props[MyActor], "myActor")
-  act ! "123"
-  act ! "234"
-
-  Thread.sleep(1000)
-
-  println(system.actorSelection("akka://abc/user/myActor"))
+//  val act = system.actorOf(Props[MyActor], "myActor")
+//  act ! "123"
+//  act ! "234"
+//
+//  Thread.sleep(1000)
+//
+//  println(system.actorSelection("akka://abc/user/myActor"))
 
 //  val emptyStats = immutable.TreeMap.empty[String, String]
 //  emptyStats.updated("123", "1")
